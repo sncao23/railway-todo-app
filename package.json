@@ -23,8 +23,8 @@
     "@vitejs/plugin-react-swc": "^4.0.1",
     "eslint": "^9.35.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "globals": "^16.3.0",
     "prettier": "^3.6.2",
     "vite": "^6.3.2"
@@ -34,7 +34,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext .js,.jsx",
-    "lint:fix": "eslint . --ext .js,.jsx --fix"
+    "lint:fix": "eslint . --ext .js,.jsx --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\""
   },
   "browserslist": {
     "production": [

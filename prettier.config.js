@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   semi: true,             // 行末にセミコロンをつける
   singleQuote: true,      // 文字列はシングルクォート
   trailingComma: 'es5',   // 複数行の末尾にカンマを付ける（オブジェクト・配列など）
